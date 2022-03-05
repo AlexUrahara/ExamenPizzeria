@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FinalizarCompra"
-    android:background="@color/Fondo_Oscuro">
+    android:background="@drawable/fondoinicio">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         <TextView
 
             android:layout_width="360dp"
-            android:layout_height="150dp"
+            android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:text="Tú Compra a Finalizado Correctamente"
             android:fontFamily="@font/robotolight"
@@ -29,10 +29,9 @@
 
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             app:srcCompat="@drawable/icono"
-            android:layout_marginTop="1dp"
             android:layout_gravity="center"/>
 
         <TextView
@@ -42,7 +41,7 @@
             android:layout_marginTop="10dp"
             android:text="total de comida"
             android:layout_gravity="center"
-            android:textColor="@color/white"
+            android:textColor="@color/textoss"
             android:textSize="23dp"
             android:fontFamily="sans-serif"
             />
@@ -53,7 +52,7 @@
             android:layout_marginTop="10dp"
             android:text=" Tu Compra Fue sin Bebida"
             android:layout_gravity="center"
-            android:textColor="@color/white"
+            android:textColor="@color/textoss"
             android:textSize="23dp"
             android:fontFamily="sans-serif"
             />
