@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamenPizzeríaVitoLugini">
         <activity
+            android:name=".FinalizarCompra"
+            android:exported="false" />
+        <activity
+            android:name=".MenuComida"
+            android:exported="false" />
+        <activity
+            android:name=".MenuBebidas"
+            android:exported="false" />
+        <activity
             android:name=".Menu"
             android:exported="false" />
         <activity

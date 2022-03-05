@@ -25,7 +25,8 @@
             android:gravity="center"
             android:text="Inicia Sesión para Acceder"
             android:textColor="@color/white"
-            android:textSize="33dp" />
+            android:textSize="33dp"
+            tools:ignore="TextContrastCheck" />
 
 
         <ImageView
@@ -47,7 +48,7 @@
             android:inputType="textPersonName"
             android:textColor="@color/white"
             android:textColorHint="@color/grisparatexto"
-            tools:ignore="DuplicateIds" />
+            tools:ignore="DuplicateIds,TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/button1"
