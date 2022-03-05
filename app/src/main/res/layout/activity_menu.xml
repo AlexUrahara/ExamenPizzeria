@@ -65,12 +65,14 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/ima1"
                 android:layout_width="190dp"
-                android:layout_height="200dp"
+                android:layout_height="190dp"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
+                android:backgroundTint="@color/Fondo_Oscuro"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/comida" />
 
             <ImageView

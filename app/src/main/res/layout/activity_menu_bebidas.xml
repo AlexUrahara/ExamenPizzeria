@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:background="#D6D31A"
             android:backgroundTint="#009E8861"
             android:fontFamily="@font/robotolight"
@@ -41,7 +41,7 @@
             android:layout_width="390dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="sans-serif"
             android:text="Ahora Selecciona una de Nuestras Mejores Bebidas Para Probar "
             android:textColor="@color/white"
@@ -187,8 +187,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="92dp">
 
                 <Button
                     android:layout_width="170dp"
@@ -207,8 +208,16 @@
                     android:backgroundTint="@color/colorBoton"
                     android:text="Finalizar"
                     app:cornerRadius="20dp" />
+
             </LinearLayout>
+
         </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="-81dp"
+            android:onClick="volver"
+            android:text="Volver al Inicio" />
 
 
     </LinearLayout>

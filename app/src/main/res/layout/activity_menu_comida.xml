@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="#D6D31A"
             android:backgroundTint="#009E8861"
             android:fontFamily="@font/robotolight"
@@ -41,7 +41,7 @@
             android:layout_width="390dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="sans-serif"
             android:text="Selecciona una de Nuestras Mejores Pizzas Para Probar Mí Estimado"
             android:textColor="@color/white"
@@ -49,7 +49,7 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="429dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -85,8 +85,8 @@
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/pizza3" />
 
-                <CheckBox
-                    android:id="@+id/check1"
+                <RadioButton
+                    android:id="@+id/radio1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
@@ -129,13 +129,13 @@
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/pizza1" />
 
-                <CheckBox
-                    android:id="@+id/check2"
+                <RadioButton
+                    android:id="@+id/radio2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
                     android:layout_weight="1"
-                    android:text="1pz"
+                    android:text="2pz"
                     android:textColor="@color/white" />
 
             </LinearLayout>
@@ -174,44 +174,54 @@
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/pizza2" />
 
-                <CheckBox
-                    android:id="@+id/check3"
+                <RadioButton
+                    android:id="@+id/radio3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
                     android:layout_weight="1"
-                    android:text="1pz"
+                    android:text="3pz"
                     android:textColor="@color/white" />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="170dp"
-                    android:layout_height="70dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/rojobajo"
-                    android:text="Finalizar "
-                    app:cornerRadius="20dp" />
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="170dp"
-                    android:layout_height="70dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/colorBoton"
-                    android:text="Bebidas"
-                    app:cornerRadius="20dp" />
-            </LinearLayout>
         </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/rojobajo"
+                android:onClick="pagarComida"
+                android:text="Finalizar "
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorBoton"
+                android:text="Bebidas"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="-79dp"
+            android:onClick="volver"
+            android:text="Volver al Inicio" />
 
 
     </LinearLayout>

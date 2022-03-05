@@ -36,7 +36,7 @@
             android:layout_gravity="center"/>
 
         <TextView
-            android:id="@+id/text1"
+            android:id="@+id/text3"
             android:layout_width="390dp"
             android:layout_height="59dp"
             android:layout_marginTop="10dp"
@@ -51,7 +51,7 @@
             android:layout_width="390dp"
             android:layout_height="59dp"
             android:layout_marginTop="10dp"
-            android:text="total de bebida"
+            android:text=" Tu Compra Fue sin Bebida"
             android:layout_gravity="center"
             android:textColor="@color/white"
             android:textSize="23dp"
@@ -60,16 +60,17 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="150dp"
             android:orientation="horizontal">
 
             <TextView
 
-                android:layout_width="386dp"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:fontFamily="@font/robotolight"
                 android:gravity="center"
+                android:layout_marginTop="40dp"
                 android:text="Gracias por Tú Compra!!"
                 android:textColor="@color/white"
                 android:textSize="37dp" />
@@ -78,20 +79,28 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="120dp"
             android:orientation="horizontal">
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="salir de la App"
-                android:gravity="center"
-                app:cornerRadius="24dp"
-                android:backgroundTint="@color/teal_700"
-                android:layout_gravity="center"
-                />
+                android:layout_marginTop="19dp"
+                android:onClick="volver"
+                android:text="Volver al Inicio" />
+
         </LinearLayout>
 
 
+
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="13dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="salir de la App"
+            app:cornerRadius="24dp" />
 
     </LinearLayout>
 

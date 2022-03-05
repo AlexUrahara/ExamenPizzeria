@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -12,6 +13,7 @@ public class Menu extends AppCompatActivity {
 
     ImageView ima1;
     ImageView ima2;
+
 
     private TextView text1;
 
@@ -45,4 +47,5 @@ public class Menu extends AppCompatActivity {
 
 
     }
+
 }
