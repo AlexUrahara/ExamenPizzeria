@@ -4,6 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FinalizarCompra">
+    tools:context=".FinalizarCompra"
+    android:background="@color/Fondo_Oscuro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:text="Tú Compra a Finalizado Correctamente"
+            android:fontFamily="@font/robotolight"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="37dp"
+            />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/icono"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="390dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="10dp"
+            android:text="total de comida"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:fontFamily="sans-serif"
+            />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="390dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="10dp"
+            android:text="total de bebida"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:fontFamily="sans-serif"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="386dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/robotolight"
+                android:gravity="center"
+                android:text="Gracias por Tú Compra!!"
+                android:textColor="@color/white"
+                android:textSize="37dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="salir de la App"
+                android:gravity="center"
+                app:cornerRadius="24dp"
+                android:backgroundTint="@color/teal_700"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

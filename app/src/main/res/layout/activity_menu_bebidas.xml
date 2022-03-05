@@ -23,7 +23,7 @@
             android:backgroundTint="#009E8861"
             android:fontFamily="@font/robotolight"
             android:gravity="center"
-            android:text="Selecciona Tú Pizza"
+            android:text="Selecciona Tú Bebida"
             android:textColor="@color/white"
             android:textSize="35dp"
             tools:ignore="TextContrastCheck" />
@@ -47,138 +47,168 @@
             android:textColor="@color/white"
             android:textSize="23dp" />
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="190dp"
-                android:layout_height="69dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="6dp"
-                android:layout_marginRight="25dp"
-                android:text="Una Deliciosa Coquita de 600ml"
-                android:textColor="@color/white"
-                />
-            <TextView
-                android:layout_width="70dp"
-                android:layout_height="59dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="9dp"
-                android:text="$20"
-                android:textSize="20dp"
-                android:fontFamily="sans-serif-black"
-                android:textColor="@color/white"
-                />
+            android:layout_height="match_parent" >
 
-            <ImageButton
-                android:id="@+id/ima3"
-                android:layout_width="100dp"
-                android:layout_height="120dp"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="99dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Una Enorme Taza de Chela Bien Fria con Doble Llenado "
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="$5|0"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+
+
+                <ImageButton
+                    android:id="@+id/ima8"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/Fondo_Oscuro"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/bebida3" />
+                <CheckBox
+                    android:id="@+id/check4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="1pz" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="34dp"
+                    android:text="Una Rica Margarita Bien Helada con Espoma y Vino"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="$40"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/ima7"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/Fondo_Oscuro"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/bebida2" />
+
+                <CheckBox
+                    android:id="@+id/check5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="1pz" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Una Deliciosa Coquita de 600ml"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="$20"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/ima6"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/Fondo_Oscuro"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/bebida1" />
+                <CheckBox
+                    android:id="@+id/check6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="1pz" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="30dp"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:background="@color/Fondo_Oscuro"
-                app:srcCompat="@drawable/bebida1" />
-        </LinearLayout>
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="190dp"
-                android:layout_height="89dp"
-                android:layout_marginLeft="6dp"
-                android:layout_marginTop="34dp"
-                android:text="Una Rica Margarita Bien Helada con Espoma y Vino"
-                android:textColor="@color/white"
-                />
-            <TextView
-                android:layout_width="70dp"
-                android:layout_height="59dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="29dp"
-                android:text="$40"
-                android:textSize="20dp"
-                android:layout_marginRight="5dp"
-                android:fontFamily="sans-serif-black"
-                android:textColor="@color/white"
-                />
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/rojobajo"
+                    android:text="Cancelar "
+                    app:cornerRadius="20dp" />
 
-            <ImageButton
-                android:id="@+id/ima4"
-                android:layout_marginTop="30dp"
-                android:layout_width="100dp"
-                android:scaleType="fitCenter"
-                android:background="@color/Fondo_Oscuro"
-                android:layout_height="110dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/bebida2"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="199dp"
-                android:layout_height="99dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="6dp"
-                android:text="Una Enorme Taza de Chela Bien Fria con Doble Llenado "
-                android:textColor="@color/white"
-                />
-
-            <TextView
-                android:layout_width="70dp"
-                android:layout_height="59dp"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginRight="25dp"
-                android:fontFamily="sans-serif-black"
-                android:text="$5|0"
-                android:textColor="@color/white"
-                android:textSize="20dp" />
-
-            <ImageButton
-                android:id="@+id/ima5"
-                android:layout_marginTop="30dp"
-                android:layout_width="100dp"
-                android:layout_height="110dp"
-                android:scaleType="fitCenter"
-                android:background="@color/Fondo_Oscuro"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/bebida3" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="30dp">
-
-            <Button
-                android:layout_width="170dp"
-                android:layout_height="70dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/rojobajo"
-                android:text="Cancelar "
-                app:cornerRadius="20dp"
-                />
-            <Button
-                android:layout_width="170dp"
-                android:layout_height="70dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                app:cornerRadius="20dp"
-                android:text="Finalizar"
-                android:backgroundTint="@color/colorBoton"
-                />
-        </LinearLayout>
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorBoton"
+                    android:text="Finalizar"
+                    app:cornerRadius="20dp" />
+            </LinearLayout>
+        </RadioGroup>
 
 
     </LinearLayout>

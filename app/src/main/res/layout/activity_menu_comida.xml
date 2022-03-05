@@ -47,137 +47,171 @@
             android:textColor="@color/white"
             android:textSize="23dp" />
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="150dp"
-                android:layout_height="69dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="6dp"
-                android:text="Pizza Pequeña de Queso con Peperoni y Queso Extra"
-                android:textColor="@color/white"
-                />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="59dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="9dp"
-                android:text="$110"
-                android:textSize="20dp"
-                android:fontFamily="sans-serif-black"
-                android:textColor="@color/white"
-                />
+            android:layout_height="match_parent" >
 
-            <ImageButton
-                android:id="@+id/ima3"
-                android:layout_width="190dp"
-                android:layout_height="110dp"
-                android:layout_marginTop="30dp"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:background="@color/Fondo_Oscuro"
-                app:srcCompat="@drawable/pizza3" />
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="150dp"
-                android:layout_height="89dp"
-                android:layout_marginLeft="6dp"
-                android:layout_marginTop="34dp"
-                android:text="Pizza Mediana de Queso con Peperoni Extra con Orillas Crujientes"
-                android:textColor="@color/white"
-                />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="59dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="9dp"
-                android:text="$150"
-                android:textSize="20dp"
-                android:fontFamily="sans-serif-black"
-                android:textColor="@color/white"
-                />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="69dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Pizza Pequeña de Queso con Peperoni y Queso Extra"
+                    android:textColor="@color/white" />
 
-            <ImageButton
-                android:id="@+id/ima4"
-                android:layout_marginTop="30dp"
-                android:layout_width="190dp"
-                android:scaleType="fitCenter"
-                android:background="@color/Fondo_Oscuro"
-                android:layout_height="110dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/pizza1"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="9dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="$110"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
 
-        </LinearLayout>
+                <ImageButton
+                    android:id="@+id/ima3"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/Fondo_Oscuro"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pizza3" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="155dp"
-                android:layout_height="99dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="6dp"
-                android:text="Pizza Grande especial de Tómate con Peperoni Extra Crujiente y jalapeño "
-                android:textColor="@color/white"
-                />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="59dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="11dp"
-                android:text="$170"
-                android:textSize="20dp"
-                android:fontFamily="sans-serif-black"
-                android:textColor="@color/white"
-                />
+                <CheckBox
+                    android:id="@+id/check1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:text="1pz"
+                    android:textColor="@color/white" />
+            </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/ima5"
-                android:layout_marginTop="30dp"
-                android:layout_width="190dp"
-                android:layout_height="120dp"
-                android:scaleType="fitCenter"
-                android:background="@color/Fondo_Oscuro"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/pizza2" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="34dp"
+                    android:text="Pizza Mediana de Queso con Peperoni Extra con Orillas Crujientes"
+                    android:textColor="@color/white" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="9dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="$150"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="170dp"
-                android:layout_height="70dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/rojobajo"
-                android:text="Finalizar "
-                app:cornerRadius="20dp"
-                />
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="170dp"
-                android:layout_height="70dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                app:cornerRadius="20dp"
-                android:text="Bebidas"
-                android:backgroundTint="@color/colorBoton"
-                />
-        </LinearLayout>
+                <ImageButton
+                    android:id="@+id/ima4"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/Fondo_Oscuro"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pizza1" />
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:text="1pz"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="108dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Pizza Grande especial de Tómate con Peperoni Extra Crujiente"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="9dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="$170"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/ima5"
+                    android:layout_width="170dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/Fondo_Oscuro"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pizza2" />
+
+                <CheckBox
+                    android:id="@+id/check3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:text="1pz"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/rojobajo"
+                    android:text="Finalizar "
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorBoton"
+                    android:text="Bebidas"
+                    app:cornerRadius="20dp" />
+            </LinearLayout>
+        </RadioGroup>
 
 
     </LinearLayout>
