@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuComida"
-    android:background="@color/Fondo_Oscuro">
+    android:background="@drawable/fondo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +33,6 @@
             android:layout_width="199dp"
             android:layout_height="199dp"
             app:srcCompat="@drawable/icono"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center"/>
 
         <TextView
@@ -41,17 +40,17 @@
             android:layout_width="390dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:fontFamily="sans-serif"
             android:text="Selecciona una de Nuestras Mejores Pizzas Para Probar Mí Estimado"
             android:textColor="@color/white"
             android:textSize="23dp" />
 
 
-        <RadioGroup
+       <RadioGroup
             android:layout_width="160dp"
             android:layout_height="420dp"
-            android:layout_marginTop="10dp"
+             android:layout_marginTop="1dp"
             android:orientation="vertical">
 
             <RadioButton
@@ -60,31 +59,32 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Pizza Chica"
+                android:layout_marginLeft="10dp"
                 android:layout_marginBottom="30dp"
                 android:layout_marginTop="30dp"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
             <RadioButton
                 android:id="@+id/radio2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-
+                android:layout_marginLeft="10dp"
                 android:layout_marginBottom="30dp"
                 android:layout_marginTop="30dp"
                 android:text="Pizza Mediana"
-                android:textColor="@color/white"  />
+                android:textColor="@color/black"  />
 
             <RadioButton
                 android:id="@+id/radio3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-
+                android:layout_marginLeft="10dp"
                 android:layout_marginBottom="30dp"
                 android:layout_marginTop="30dp"
                 android:text="Pizza Grande"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
         </RadioGroup>
 
         <LinearLayout
@@ -102,7 +102,7 @@
                 android:layout_marginRight="9dp"
                 android:fontFamily="sans-serif-black"
                 android:text="$110"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="20dp" />
 
             <ImageButton
@@ -111,7 +111,7 @@
                 android:layout_height="110dp"
                 android:layout_marginTop="30dp"
                 android:layout_weight="1"
-                android:background="@color/Fondo_Oscuro"
+                android:background="@drawable/vacio"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/pizza3" />
 
@@ -131,7 +131,7 @@
                 android:layout_marginRight="9dp"
                 android:fontFamily="sans-serif-black"
                 android:text="$110"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="20dp" />
 
             <ImageButton
@@ -140,14 +140,14 @@
                 android:layout_height="110dp"
                 android:layout_marginTop="30dp"
                 android:layout_weight="1"
-                android:background="@color/Fondo_Oscuro"
+                android:background="@drawable/vacio"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/pizza1" />
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="300dp"
-            android:layout_height="140dp"
+            android:layout_height="150dp"
             android:layout_marginLeft="180dp"
             android:layout_marginTop="4dp"
             android:orientation="horizontal">
@@ -160,16 +160,16 @@
                 android:layout_marginRight="9dp"
                 android:fontFamily="sans-serif-black"
                 android:text="$110"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="20dp" />
 
             <ImageButton
                 android:id="@+id/ima2"
                 android:layout_width="170dp"
                 android:layout_height="127dp"
-                android:layout_marginTop="13dp"
+                android:layout_marginTop="29dp"
                 android:layout_weight="1"
-                android:background="@color/Fondo_Oscuro"
+                android:background="@drawable/vacio"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/pizza2" />
 
@@ -197,7 +197,7 @@
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/colorBoton"
+                android:backgroundTint="@color/teal_700"
                 android:text="Bebidas"
                 app:cornerRadius="20dp" />
         </LinearLayout>

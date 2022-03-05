@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Menu"
 
-    android:background="@color/Fondo_Oscuro">
+    android:background="@drawable/fondomain">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,8 +51,8 @@
         <TextView
             android:id="@+id/text1"
             android:layout_width="390dp"
-            android:layout_height="159dp"
-            android:layout_marginTop="40dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="59dp"
             android:text="Hola mi Estimado "
             android:layout_gravity="center"
             android:textColor="@color/white"
@@ -67,20 +67,23 @@
 
             <ImageButton
                 android:id="@+id/ima1"
-                android:layout_width="190dp"
-                android:layout_height="190dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/Fondo_Oscuro"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/vacio"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/comida" />
+                app:srcCompat="@drawable/pizaa" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="190dp"
-                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="180dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bebidass" />
+                app:srcCompat="@drawable/bebi" />
         </LinearLayout>
 
     </LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuBebidas"
-    android:background="@color/Fondo_Oscuro">
+    android:background="@drawable/fondo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_width="199dp"
             android:layout_height="199dp"
             app:srcCompat="@drawable/icono"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="2dp"
             android:layout_gravity="center"/>
 
         <TextView
@@ -41,181 +41,171 @@
             android:layout_width="390dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:fontFamily="sans-serif"
             android:text="Ahora Selecciona una de Nuestras Mejores Bebidas Para Probar "
             android:textColor="@color/white"
             android:textSize="23dp" />
 
+
         <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_width="160dp"
+            android:layout_height="420dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cocacola 600ml"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black" />
 
-                <TextView
-                    android:layout_width="199dp"
-                    android:layout_height="99dp"
-                    android:layout_marginLeft="6dp"
-                    android:layout_marginTop="30dp"
-                    android:text="Una Enorme Taza de Chela Bien Fria con Doble Llenado "
-                    android:textColor="@color/white" />
+            <RadioButton
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
 
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="59dp"
-                    android:layout_marginLeft="17dp"
-                    android:layout_marginTop="60dp"
-                    android:layout_marginRight="25dp"
-                    android:fontFamily="sans-serif-black"
-                    android:text="$5|0"
-                    android:textColor="@color/white"
-                    android:textSize="20dp" />
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Piña Colada"
+                android:textColor="@color/black"  />
 
+            <RadioButton
+                android:id="@+id/radio6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
 
-
-                <ImageButton
-                    android:id="@+id/ima8"
-                    android:layout_width="100dp"
-                    android:layout_height="110dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_weight="1"
-                    android:background="@color/Fondo_Oscuro"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/bebida3" />
-                <CheckBox
-                    android:id="@+id/check4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:layout_weight="1"
-                    android:textColor="@color/white"
-                    android:text="1pz" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="190dp"
-                    android:layout_height="89dp"
-                    android:layout_marginLeft="6dp"
-                    android:layout_marginTop="34dp"
-                    android:text="Una Rica Margarita Bien Helada con Espoma y Vino"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="59dp"
-                    android:layout_marginLeft="29dp"
-                    android:layout_marginTop="60dp"
-                    android:layout_marginRight="5dp"
-                    android:fontFamily="sans-serif-black"
-                    android:text="$40"
-                    android:textColor="@color/white"
-                    android:textSize="20dp" />
-
-                <ImageButton
-                    android:id="@+id/ima7"
-                    android:layout_width="100dp"
-                    android:layout_height="110dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_weight="1"
-                    android:background="@color/Fondo_Oscuro"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/bebida2" />
-
-                <CheckBox
-                    android:id="@+id/check5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:layout_weight="1"
-                    android:textColor="@color/white"
-                    android:text="1pz" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="190dp"
-                    android:layout_height="69dp"
-                    android:layout_marginLeft="6dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginRight="25dp"
-                    android:text="Una Deliciosa Coquita de 600ml"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="59dp"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="60dp"
-                    android:fontFamily="sans-serif-black"
-                    android:text="$20"
-                    android:textColor="@color/white"
-                    android:textSize="20dp" />
-
-                <ImageButton
-                    android:id="@+id/ima6"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_weight="1"
-                    android:background="@color/Fondo_Oscuro"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/bebida1" />
-                <CheckBox
-                    android:id="@+id/check6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:layout_weight="1"
-                    android:textColor="@color/white"
-                    android:text="1pz" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal"
-                android:layout_marginBottom="92dp">
-
-                <Button
-                    android:layout_width="170dp"
-                    android:layout_height="70dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/rojobajo"
-                    android:text="Cancelar "
-                    app:cornerRadius="20dp" />
-
-                <Button
-                    android:layout_width="170dp"
-                    android:layout_height="70dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/colorBoton"
-                    android:text="Finalizar"
-                    app:cornerRadius="20dp" />
-
-            </LinearLayout>
-
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Una Chela"
+                android:textColor="@color/black" />
         </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-424dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="9dp"
+                android:fontFamily="sans-serif-black"
+                android:text="$20"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/ima3"
+                android:layout_width="170dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/vacio"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bebida1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="9dp"
+                android:fontFamily="sans-serif-black"
+                android:text="$40"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/ima1"
+                android:layout_width="170dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:background="@drawable/vacio"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bebida2" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="9dp"
+                android:fontFamily="sans-serif-black"
+                android:text="$60"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/ima2"
+                android:layout_width="170dp"
+                android:layout_height="117dp"
+                android:layout_marginTop="17dp"
+                android:layout_weight="1"
+                android:background="@drawable/vacio"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bebida3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/rojobajo"
+                android:text="Cancelar "
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorBoton"
+                android:text="Finalizar"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="-81dp"
+            android:layout_marginTop="19dp"
             android:onClick="volver"
             android:text="Volver al Inicio" />
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/Fondo_Oscuro">
+    android:background="@drawable/fondoinicio">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         <ImageView
             android:layout_width="300dp"
             android:layout_height="300dp"
-            app:srcCompat="@drawable/icon1"
+            app:srcCompat="@drawable/icono"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"/>
 
@@ -41,13 +41,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="66dp"
+            android:layout_marginTop="166dp"
             android:layout_marginEnd="32dp"
-            android:backgroundTint="@color/grisparatexto"
+            android:backgroundTint="@color/white"
             android:hint=" Ingrese Usuario"
             android:inputType="textPersonName"
             android:textColor="@color/white"
-            android:textColorHint="@color/grisparatexto"
+            android:textColorHint="@color/white"
             tools:ignore="DuplicateIds,TouchTargetSizeCheck" />
 
         <Button
@@ -58,7 +58,6 @@
             android:layout_marginTop="54dp"
             android:layout_marginEnd="32dp"
             android:backgroundTint="@color/teal_700"
-            android:onClick="Login"
             android:text="@string/button1"
             app:cornerRadius="20dp" />
 
