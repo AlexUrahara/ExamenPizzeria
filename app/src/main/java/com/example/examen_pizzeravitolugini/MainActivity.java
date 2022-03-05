@@ -21,6 +21,5 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Menu.class);
         i.putExtra("dato", text0.getText().toString());
         startActivity(i);
-
     }
 }

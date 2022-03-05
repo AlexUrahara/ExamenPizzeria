@@ -38,8 +38,11 @@ public class FinalizarCompra extends AppCompatActivity {
             }
         });
 
-        String dato =getIntent().getStringExtra("dato");
-        text3.setText("Estimado "+ dato +" has seleccionado la pizza: "  );
+        String dato =getIntent().getStringExtra("dato1");
+        String dato2 =getIntent().getStringExtra("dato2");
+        String dato3 =getIntent().getStringExtra("dato3");
+        String dato4 =getIntent().getStringExtra("dato4");
+        text3.setText("Estimado "+ dato +"  has seleccionado la: " + dato2 + " acompañada de la bebida: " + dato3 +" su total a pagar es: " + dato4);
 
 
 
