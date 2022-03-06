@@ -18,7 +18,7 @@ public class MenuComida extends AppCompatActivity {
     Button button2;
     TextView text2;
     RadioButton Radio1, Radio2, Radio3;
-    private EditText text0;
+    EditText text0;
     String usuario;
     SharedPreferences preferences;
 

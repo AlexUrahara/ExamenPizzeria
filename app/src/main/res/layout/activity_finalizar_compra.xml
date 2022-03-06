@@ -39,7 +39,7 @@
             android:layout_width="390dp"
             android:layout_height="59dp"
             android:layout_marginTop="10dp"
-            android:text="total de comida"
+            android:text=""
             android:layout_gravity="center"
             android:textColor="@color/textoss"
             android:textSize="23dp"
@@ -78,8 +78,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="121dp"
             android:orientation="horizontal">
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
